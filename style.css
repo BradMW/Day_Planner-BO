@@ -21,6 +21,20 @@ textarea {
   border-bottom: 10px solid black;
 }
 
+.myContainer {
+  background-color: #6b6b6b;
+  color: white;
+}
+
+.saveBtn {
+  align-items: end;
+  margin: auto;
+  padding: 10px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  font-size: xx-large;
+}
+
 .description {
   white-space: pre-wrap;
 }
