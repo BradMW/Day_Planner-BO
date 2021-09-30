@@ -26,6 +26,13 @@ textarea {
   color: white;
 }
 
+.txtinput {
+  margin: auto;
+  width: 800px;
+  text-align: center;
+  color:white
+}
+
 .saveBtn {
   align-items: end;
   margin: auto;
