@@ -21,14 +21,14 @@ textarea {
   border-bottom: 10px solid black;
 }
 
-.myContainer {
+/* .myContainer {
   background-color: #6b6b6b;
   color: white;
-}
+} */
 
 .txtinput {
   margin: auto;
-  width: 800px;
+  /* width: 800px; */
   text-align: center;
   color:white
 }
