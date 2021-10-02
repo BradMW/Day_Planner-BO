@@ -11,6 +11,7 @@ var text = document.querySelectorAll(".txtinput");
 
 // event.preventDefault();
 
+//this function keeps an eye on the time and changes the color with css classes
 $(".time-block").each(function() {
   console.log(typeof $(this).attr('id'))
 
@@ -78,14 +79,12 @@ console.log($(this).siblings().eq(1).val());
     };
 
       localStorage.setItem("user", JSON.stringify(user));
-});
+     });
 
+  })
 
-})
-
-$('.txtinput').each(function() {
+    $('.txtinput').each(function() {
  
-  
  var inputTxt = JSON.parse(localStorage.getItem("user"));
  $(this).text(inputTxt);
  console.log(inputTxt.save);
@@ -93,6 +92,12 @@ $('.txtinput').each(function() {
 
 })
 
+
+// function sentence() {
+
+//     const message = document.querySelector('.txtinput');
+//     message.innerText = content;
+// }
 
 
 // save.addEventListener("click", function(event) {
