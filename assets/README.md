@@ -16,4 +16,4 @@ Here is a link to the deployed page!
 https://bradmw.github.io/Day_Planner-BO/
 
 
-![a screen shot of the deployed page.](HW5-WDS.png)
+![a screen shot of the deployed page.](HW5-BO.png)
